@@ -1,14 +1,10 @@
-
 <script>
     function init(){
-        //书写轮播图片的定时功能
         setInterval("changeImg()",1500);
     }
-    //书写函数
     var i=0;
     function changeImg(){
         i++;
-        //获取图片位置并设置src属性值
         document.getElementById("img1").src=i+".jpeg";
         if(i==5){
             i=0;
@@ -32,7 +28,6 @@
     </tr>
 </table>
 
-
 <table width="1200px" align="center"  cellpadding="2px" cellspacing="2px">
     <tr height="35" >
         <td width="100%" align="center" >
@@ -43,7 +38,7 @@
         </td>
     </tr>
 
-
+<!--rollingpic-->
     <tr>
         <td>
             <img src="1.jpeg" width="100%"  id="img1"/>
@@ -67,7 +62,7 @@
             <p align="center" ><span style="font-size: medium; font-family: Times New Roman; ">I am a student in University of Waterloo.</span></p>
         </td>
         <td align="center">
-            <p align="center" ><span style="font-size: medium; font-family: Times New Roman; ">I love traveling and cooking, and I'm fan of pixel art and Cantonese music.</span></p>
+            <p align="center" ><span style="font-size: medium; font-family: Times New Roman; ">I love traveling and cooking. I'm also fan of pixel art and Cantonese music.</span></p>
         </td>
     </tr>
 </table>
