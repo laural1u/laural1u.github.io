@@ -1,0 +1,164 @@
+
+<script>
+    function init(){
+        //书写轮播图片的定时功能
+        setInterval("changeImg()",1500);
+    }
+    //书写函数
+    var i=0;
+    function changeImg(){
+        i++;
+        //获取图片位置并设置src属性值
+        document.getElementById("img1").src=i+".jpeg";
+        if(i==5){
+            i=0;
+        }
+    }
+</script>
+
+<!--head-->
+<body onload="init()">
+<table width="1200px" align="center" cellpadding="0px" cellspacing="0px">
+    <tr>
+        <td>
+            <table border="0px" width="1400px">
+                <tr height="50px">
+                    <td width="100%" align="center">
+                        <a href="#" > <span style="color: black; font-size: xx-large; font-family: Times New Roman; "><strong>SHUHAN LIU</strong></span></a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+<table width="1200px" align="center"  cellpadding="2px" cellspacing="2px">
+    <tr height="35" >
+        <td width="100%" align="center" >
+            <a href="#"><span style="font-family: Times New Roman; font-family: 4; ">Home</span></a>
+            <a href="#"><span style="font-family: Times New Roman; font-family: 4; ">About Me</span></a>
+            <a href="#"><span style="font-family: Times New Roman; font-family: 4; ">My Journey</span></a>
+
+        </td>
+    </tr>
+
+
+    <tr>
+        <td>
+            <img src="1.jpeg" width="100%"  id="img1"/>
+        </td>
+    </tr>
+</table><br /><br />
+
+
+<!--About Me-->
+<table width="1400px" cellspacing="2px" cellpadding="2px" align="center">
+    <tr align="center">
+        <td>
+            <span style="font-family: Times New Roman; font-size: x-large; "><strong>About Me</strong></span><br />
+        </td>
+    </tr>
+</table>
+
+<table width="1400px" cellspacing="2px" cellpadding="6px" align="center">
+    <tr>
+        <td align="center">
+            <p align="center" ><span style="font-size: medium; font-family: Times New Roman; ">I am a student in University of Waterloo.</span></p>
+        </td>
+        <td align="center">
+            <p align="center" ><span style="font-size: medium; font-family: Times New Roman; ">I love traveling and cooking, and I'm fan of pixel art and Cantonese music.</span></p>
+        </td>
+    </tr>
+</table>
+
+<table width="1000px" cellpadding="2px" cellspacing="2px" align="center">
+    <tr>
+        <td>
+            <p align="center" ><span style="font-size: large; font-family: Times New Roman; "><strong>Welcome to my world!</strong></span></p>
+        </td>
+    </tr>
+</table><br />
+
+<table width="1400px" cellpadding="0px" cellspacing="0px" align="center">
+    <tr>
+        <td>
+            <img src="image/pintuuw.jpeg" width="700px" height="700px" align="center"/>
+        </td>
+        <td>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td>
+            <img src="image/pintuhobby.jpeg" width="700px" height="700px" align="center"/>
+        </td>
+    </tr>
+</table><br /><br />
+
+
+
+<!--my journey-->
+<table width="1400px" cellspacing="2px" cellpadding="2px" align="center">
+    <tr><th><span style="font-family: Times New Roman; font-size: x-large; "><strong>My Journey</strong></span></th></tr><br /><br />
+    <tr>
+        <td align="center">
+            <p align="center" ><span style="font-size: small; font-family: Times New Roman; ">I'm collecting the night view of the world.</span></p>
+            <br /><br />
+        </td>
+    </tr>
+</table>
+
+<table width="1000px" cellpadding="2px" cellspacing="8px" align="center">
+    <tr align="center">
+        <td width="80px" height="80px">
+            <img src="image/night/beijing.jpeg" width="100%">
+            <span style="font-size: medium; font-family: Times New Roman; "><strong>Beijing</strong></span><br />
+            <span style="font-size: small; color: gray; ">Houhai</span>
+        </td>
+        <td>
+            <img src="image/night/hongkong.jpeg" width="85%">
+            <span style="font-size: medium; font-family: Times New Roman; "><strong>HongKong</strong></span><br />
+            <span style="font-size: small; color: gray; ">Nathan Road</span>
+        </td>
+        <td>
+            <img src="image/night/vancouver.jpeg" width="125%">
+            <span style="font-size: medium; font-family: Times New Roman; "><strong>Vancouver</strong></span><br />
+            <span style="font-size: small; color: gray; ">George Wainborn Park</span>
+        </td>
+    </tr>
+    <tr align="center">
+        <td>
+            <img src="image/night/toronto.jpeg" width="105%">
+            <span style="font-size: medium; font-family: Times New Roman; "><strong>Toronto</strong></span><br />
+            <span style="font-size: small; color: gray; ">Toronto Sign</span>
+        </td>
+        <td>
+            <img src="image/night/shanghai.jpeg" width="86%" >
+            <span style="font-size: medium; font-family: Times New Roman; "><strong>Shanghai</strong></span><br />
+            <span style="font-size: small; color: gray; ">The Bund</span>
+        </td>
+        <td>
+            <img src="image/night/seoul.jpeg" width="125%">
+            <span style="font-size: medium; font-family: Times New Roman; "><strong>Seoul</strong></span><br />
+            <span style="font-size: small; color: gray; ">Cheonggyecheon</span>
+        </td>
+    </tr>
+</table><br /><br />
+
+
+
+
+</table>
+<table width="1400px"  height="300px" bgcolor="black" cellpadding="6px" align="center">
+    <tr>
+        <td align="center">
+            <p align="center" ><span
+                    style="font-size: xx-large; font-family: Times New Roman; color: white; ">Shuhan Liu</span></p><br /><br /><br />
+            <p align="center" ><span style="font-size: medium; font-family: Times New Roman; color: white; ">Welcome to my world!</span></p>
+        </td>
+    </tr>
+</table>
+</body>
