@@ -1,51 +1,68 @@
 <script>
-    function init(){
-        setInterval("changeImg()",1500);
+    function init() {
+        setInterval("changeImg()", 1500);
     }
-    var i=0;
-    function changeImg(){
+    var i = 0;
+    function changeImg() {
         i++;
-        document.getElementById("img1").src=i+".jpeg";
-        if(i==5){
-            i=0;
+        document.getElementById("img1").src = i + ".jpeg";
+        if (i == 5) {
+            i = 0;
         }
     }
 </script>
 
+<head>
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
+    <style type="text/css">
+        @media(max-width:960px) {}
+    </style>
+</head>
 <!--head-->
+
 <body bgcolor="#edd1d8">
-<body onload="init()">
-<table width="1200px" align="center" cellpadding="0px" cellspacing="0px">
-    <tr>
-        <td>
-            <table border="0px" width="1400px">
-                <tr height="50px">
-                    <td width="100%" align="center">
-                        <a href="https://shuhan-liu.com" > <span style="color: black; font-size: xx-large; font-family: Times New Roman; "><strong>SHUHAN LIU</strong></span></a>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
-</table>
-    
-<table width="1200px" align="center"  cellpadding="2px" cellspacing="2px">
-    <tr height="35" >
-        <td width="100%" align="center" >
-            <a href="https://shuhan-liu.com/aboutme"><span style="font-family: Times New Roman; font-family: 4; ">ABOUT ME</span></a>
-            <a href="https://shuhan-liu.com/myjourney"><span style="font-family: Times New Roman; font-family: 4; ">MY JOURNEY</span></a>
-            <a href="https://github.com/laural1u"><span style="font-family: Times New Roman; font-family: 4; ">GITHUB</span></a>
-            <a href="https://www.linkedin.com/in/shuhan-liu-404058158/"><span style="font-family: Times New Roman; font-family: 4; ">LINKEDIN</span></a>
-            <a href="Shuhan Liu.pdf"><span style="font-family: Times New Roman; font-family: 4; ">RESUME</span></a>
-            <a href="mailto:s486liu@uwaterloo.ca"><span style="font-family: Times New Roman; font-family: 4; ">EMAIL ME</span></a>
 
-        </td>
-    </tr>
+    <body onload="init()">
+        <table width="960px" align="center" cellpadding="0px" cellspacing="0px">
+            <tr>
+                <td>
+                    <table border="0px" width="960px">
+                        <tr height="50px">
+                            <td width="100%" align="center">
+                                <a href="https://shuhan-liu.com"> <span
+                                        style="color: black; font-size: xx-large; font-family: Verdana, Geneva, Tahoma, sans-serif; "><strong>SHUHAN'S BLOG</strong></span></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
 
-<!--rollingpic-->
-    <tr>
-        <td>
-            <img src="1.jpeg" width="100%"  id="img1"/>
-        </td>
-    </tr>
-</table><br /><br />
+        <table width="960px" align="center" cellpadding="2px" cellspacing="2px">
+            <tr height="35">
+                <td width="100%" align="center">
+                    <a href="https://shuhan-liu.com/aboutme"><span
+                            style="font-family: arial; font-family: 4; ">ABOUT ME</span></a>
+                    <a href="https://shuhan-liu.com/myjourney"><span
+                            style="font-family: arial; font-family: 4; ">MY JOURNEY</span></a>
+                    <a href="https://github.com/laural1u"><span
+                            style="font-family: arial; font-family: 4; ">GITHUB</span></a>
+                    <a href="https://www.linkedin.com/in/shuhan-liu-404058158/"><span
+                            style="font-family: arial; font-family: 4; ">LINKEDIN</span></a>
+                    <a href="Shuhan Liu.pdf"><span
+                            style="font-family: arial; font-family: 4; ">RESUME</span></a>
+                    <a href="mailto:s486liu@uwaterloo.ca"><span
+                            style="font-family: arial; font-family: 4; ">EMAIL ME</span></a>
+
+                </td>
+            </tr>
+
+            <!--rollingpic-->
+            <tr>
+                <td>
+                    <img src="1.jpeg" width="100%" id="img1" />
+                </td>
+            </tr>
+        </table><br /><br />
