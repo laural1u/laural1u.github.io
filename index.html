@@ -1,68 +1,96 @@
-<script>
-    function init() {
-        setInterval("changeImg()", 1500);
-    }
-    var i = 0;
-    function changeImg() {
-        i++;
-        document.getElementById("img1").src = i + ".jpg";
-        if (i == 5) {
-            i = 0;
-        }
-    }
-</script>
-
+<!DOCTYPE html>
+<html>
+<!--head-->
 <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
     <meta http-equiv="Cache-Control" content="no-transform" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
     <style type="text/css">
+        #nav {
+            height: 300px;
+            font-size: 20px;
+        }
+
+        #nav ul {
+            list-style: none;
+            margin-left: 50px;
+        }
+
+        #nav a {
+            line-height: 40px;
+            color: #fff;
+            text-decoration: none;
+            padding: 20px 20px;
+        }
+
+        #nav a:hover {
+            background-color: #060;
+        }
+
         @media(max-width:960px) {}
     </style>
 </head>
-<!--head-->
 
-<body bgcolor="#edd1d8">
+<!--body-->
+<body onload="init()" style= "margin:0px; padding:0px; border:0px; background-color: black;">
+    <!--rollingpic-->
+    <div id="rolling" style="z-index: -1; position:absolute; margin:0px; padding:0px; border:0px;">
+        <img src="1.jpg" width="100%" id="img1" />
+    </div>
+    <!--navigation-->
+    <div id="nav" style="z-index: 1;">
+        <ul>
+            <li class="navMenu"><a href="https://shuhan-liu.com\">Index</a></li>
+            <li class="navMenu"><a href="https://shuhan-liu.com/aboutme">aboutme</a>
+                <ul>
+                    <li><a href="https://shuhan-liu.com/myjourney">my journey</a></li>
+                    <li><a href="https://github.com/laural1u">github</a></li>
+                </ul>
+            </li>
+            <li class="navMenu"><a href="#">third</a>
+                <ul>
+                    <li><a href="Shuhan Liu.pdf">resume</a> </li>
+                    <li><a href="#">sec</a></li>
+                    <li><a href="#">third</a></li>
+                </ul>
+            </li>
+            <li class="navMenu"><a href="mailto:s486liu@uwaterloo.ca">email me</a></li>
+            <li class="navMenu"><a href="#">fifth</a></li>
+        </ul>
+    </div>
 
-    <body onload="init()">
-        <table width="960px" align="center" cellpadding="0px" cellspacing="0px">
-            <tr>
-                <td>
-                    <table border="0px" width="960px">
-                        <tr height="50px">
-                            <td width="100%" align="center">
-                                <a href="https://shuhan-liu.com"> <span
-                                        style="color: black; font-size: xx-large; font-family: Verdana, Geneva, Tahoma, sans-serif; "><strong>SHUHAN'S BLOG</strong></span></a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+    <!--title-->
+    <div id="title" style="position:absolute; padding-left: 375px">
+        <a href="https://shuhan-liu.com"
+            style="color: white; font-size: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: none;"><strong>SHUHAN'S
+                BLOG</strong></a>
+        <h1 style="font-size: 20px; font-weight: 400; color: white;padding-left: 120px;">
+            Welcome to my world!
+        </h1>
+    </div>
 
-        <table width="960px" align="center" cellpadding="2px" cellspacing="2px">
+    <!--        <table width="960px" align="center" cellpadding="2px" cellspacing="2px">
             <tr height="35">
                 <td width="100%" align="center">
-                    <a href="https://shuhan-liu.com/aboutme"><span
-                            style="font-family: arial; font-family: 4; ">ABOUT ME</span></a>
-                    <a href="https://shuhan-liu.com/myjourney"><span
-                            style="font-family: arial; font-family: 4; ">MY JOURNEY</span></a>
+                    <a href="https://shuhan-liu.com/aboutme"><span style="font-family: arial; font-family: 4; ">ABOUT
+                            ME</span></a>
+                    <a href="https://shuhan-liu.com/myjourney"><span style="font-family: arial; font-family: 4; ">MY
+                            JOURNEY</span></a>
                     <a href="https://github.com/laural1u"><span
                             style="font-family: arial; font-family: 4; ">GITHUB</span></a>
                     <a href="https://www.linkedin.com/in/shuhan-liu-404058158/"><span
                             style="font-family: arial; font-family: 4; ">LINKEDIN</span></a>
-                    <a href="Shuhan Liu.pdf"><span
-                            style="font-family: arial; font-family: 4; ">RESUME</span></a>
-                    <a href="mailto:s486liu@uwaterloo.ca"><span
-                            style="font-family: arial; font-family: 4; ">EMAIL ME</span></a>
+                    <a href="Shuhan Liu.pdf"><span style="font-family: arial; font-family: 4; ">RESUME</span></a>
+                    <a href="mailto:s486liu@uwaterloo.ca"><span style="font-family: arial; font-family: 4; ">EMAIL
+                            ME</span></a>
 
                 </td>
-            </tr>
+            </tr>-->
 
-            <!--rollingpic-->
-            <tr>
-                <td>
-                    <img src="1.jpg" width="100%" id="img1" />
-                </td>
-            </tr>
-        </table><br /><br />
+
+</body>
+
+</html>
