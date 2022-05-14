@@ -1,33 +1,77 @@
-<body bgcolor="#edd1d8">
-    <table width="960px" height="20px">
-        <tr align="left">
-            <td>
-                <a href="https://shuhan-liu.com/"><span
-                    style="font-family: arial; font-size: large; ">BACK</span></a>
-            </td>
-        </tr>
-    </table>
-    <table width="960px" cellspacing="2px" cellpadding="2px" align="center">
-        <tr>
-            <th><span style="font-family:  Verdana, Geneva, Tahoma, sans-serif; font-size: xx-large; "><strong>My Journey</strong></span>
-            </th>
-        </tr><br /><br />
-        <tr>
-            <td align="center">
-                <p align="center"><span style="font-size: large; font-family: arial; ">I'm collecting the
-                        night view of the world.</span></p>
-                <br /><br />
-            </td>
-        </tr>
-    </table>
+<!DOCTYPE html>
+<html>
+<!--head-->
 
+<head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
+    <style type="text/css">
+        #nav {
+            height: 300px;
+            font-size: 20px;
+        }
+
+        #nav ul {
+            list-style: none;
+            margin-left: 50px;
+        }
+
+        #nav ul.sub {
+            display: none;
+        }
+
+        #nav a {
+            line-height: 40px;
+            color: #fff;
+            text-decoration: none;
+            padding: 20px 20px;
+        }
+
+        #nav a:hover {
+            background-color: #060;
+        }
+
+        @media(max-width:960px) {}
+    </style>
+</head>
+
+
+<body bgcolor=black>
+    <!--navigation-->
+    <div id="nav" style="width:300px; height:auto; float:left; display:inline; margin-left: -100px;">
+        <ul>
+            <li class="navMenu"><a href="https://shuhan-liu.com\">Index</a>
+
+            <li class="navMenu"><a href="#">Social Media</a>
+                <ul class="sub">
+                    <li><a href="https://github.com/laural1u">github</a> </li>
+                    <li><a href="https://www.linkedin.com/in/shuhan-liu-404058158/">LINKEDIN</a></li>
+                    <li><a href="#">third</a></li>
+                </ul>
+            </li>
+            <li class="navMenu"><a href="Shuhan Liu.pdf">Resume</a></li>
+            <li class="navMenu"><a href="mailto:s486liu@uwaterloo.ca">Email Me</a></li>
+        </ul>
+        </li>
+
+    </div>
+    <div id="project-body" style="z-index: -1; height:auto; float:left; display:inline; margin-left: 250px;">
+
+        <h1
+            style="font-family:  Verdana, Geneva, Tahoma, sans-serif; font-size: xx-large; color:white; text-align: left;">
+            Personal projects
+        </h1>
+        <h2 style="font-size: large; font-family: arial; color:white; text-align: left; margin-left: 25px">Demo of my
+            personal projects.
+        </h2>
+    </div>
+    <div class="demo">
     <table width="960px" cellpadding="2px" cellspacing="8px" align="center">
         <tr align="center">
-            <td width="80px" height="80px">
-                <img src="image/night/beijing.jpeg" width="100%">
-                <span style="font-size: medium; font-family: arial; "><strong>Beijing</strong></span><br />
-                <span style="font-size: small; color: gray; ">Houhai</span>
-            </td>
             <td>
                 <img src="image/night/hongkong.jpeg" width="85%">
                 <span style="font-size: medium; font-family: arial; "><strong>HongKong</strong></span><br />
@@ -39,29 +83,12 @@
                 <span style="font-size: small; color: gray; ">George Wainborn Park</span>
             </td>
         </tr>
-        <tr align="center">
-            <td>
-                <img src="image/night/toronto.jpeg" width="105%">
-                <span style="font-size: medium; font-family: arial; "><strong>Toronto</strong></span><br />
-                <span style="font-size: small; color: gray; ">Toronto Sign</span>
-            </td>
-            <td>
-                <img src="image/night/shanghai.jpeg" width="86%">
-                <span style="font-size: medium; font-family: arial; "><strong>Shanghai</strong></span><br />
-                <span style="font-size: small; color: gray; ">The Bund</span>
-            </td>
-            <td>
-                <img src="image/night/seoul.jpeg" width="125%">
-                <span style="font-size: medium; font-family: arial; "><strong>Seoul</strong></span><br />
-                <span style="font-size: small; color: gray; ">Cheonggyecheon</span>
-            </td>
-        </tr>
+    </div>
     </table><br /><br />
 
 
 
 
-    </table>
     <!--
     <table width="960px"  height="300px" bgcolor="black" cellpadding="6px" align="center">
     <tr>
@@ -73,3 +100,5 @@
 </table>
 -->
 </body>
+
+</html>

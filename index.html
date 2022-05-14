@@ -19,6 +19,10 @@
             margin-left: 50px;
         }
 
+        #nav ul.sub {
+            display: none;
+        }
+
         #nav a {
             line-height: 40px;
             color: #fff;
@@ -27,7 +31,7 @@
         }
 
         #nav a:hover {
-            background-color: #060;
+            background-color: rgb(95, 50, 147);
         }
 
         @media(max-width:960px) {}
@@ -41,24 +45,24 @@
         <img src="1.jpg" width="100%" id="img1" />
     </div>
     <!--navigation-->
-    <div id="nav" style="z-index: 1;">
+    <div id="nav" style="z-index: 1; width: 400px">
         <ul>
             <li class="navMenu"><a href="https://shuhan-liu.com\">Index</a></li>
-            <li class="navMenu"><a href="https://shuhan-liu.com/aboutme">aboutme</a>
-                <ul>
+            <li class="navMenu"><a href="https://shuhan-liu.com/aboutme">Projects</a>
+                <ul class="sub">
                     <li><a href="https://shuhan-liu.com/myjourney">my journey</a></li>
                     <li><a href="https://github.com/laural1u">github</a></li>
                 </ul>
             </li>
-            <li class="navMenu"><a href="#">third</a>
-                <ul>
-                    <li><a href="Shuhan Liu.pdf">resume</a> </li>
-                    <li><a href="#">sec</a></li>
+            <li class="navMenu"><a href="#">Social Media</a>
+                <ul class="sub">
+                    <li><a href="https://github.com/laural1u">github</a> </li>
+                    <li><a href="https://www.linkedin.com/in/shuhan-liu-404058158/">LINKEDIN</a></li>
                     <li><a href="#">third</a></li>
                 </ul>
             </li>
-            <li class="navMenu"><a href="mailto:s486liu@uwaterloo.ca">email me</a></li>
-            <li class="navMenu"><a href="#">fifth</a></li>
+            <li class="navMenu"><a href="Shuhan Liu.pdf">Resume</a></li>
+            <li class="navMenu"><a href="mailto:s486liu@uwaterloo.ca">Email Me</a></li>
         </ul>
     </div>
 
