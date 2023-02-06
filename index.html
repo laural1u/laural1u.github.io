@@ -1,102 +1,56 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE HTML>
 <html>
-<!--head-->
 <head>
-    <meta charset="utf-8">
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/script.js"></script>
-    <meta http-equiv="Cache-Control" content="no-transform" />
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes" />
-    <style type="text/css">
-        #nav {
-            height: 300px;
-            font-size: 20px;
-        }
-
-        #nav ul {
-            list-style: none;
-            margin-left: 50px;
-        }
-
-        #nav ul.sub {
-            display: none;
-        }
-
-        #nav a {
-            line-height: 40px;
-            color: #fff;
-            text-decoration: none;
-            padding: 20px 20px;
-        }
-
-        #nav a:hover {
-            background-color: rgb(95, 50, 147);
-        }
-
-        @media(max-width:960px) {}
-    </style>
+<title>Shuhan Liu's Blog</title>
+<meta charset="utf-8">
+<meta name="baidu-site-verification" content="b9lOcChmbf">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="css/main.css">
+<noscript>
+<link rel="stylesheet" href="css/noscript.css"/>
+</noscript>
 </head>
-
-<!--body-->
-<body onload="init()" style= "margin:0px; padding:0px; border:0px; background-color: black;">
-    <!--rollingpic-->
-    <div id="rolling" style="z-index: -1; position:absolute; margin:0px; padding:0px; border:0px;">
-        <img src="1.jpg" width="100%" id="img1" />
-    </div>
-    <!--navigation-->
-    <div id="nav" style="z-index: 1; width: 400px; font-size: 23px;">
-        <ul>
-            <li class="navMenu"><a href="https://shuhan-liu.com\">Index</a></li>
-            <li class="navMenu"><a href="https://shuhan-liu.com/aboutme">Album</a>
-                <ul class="sub">
-                    <li><a href="https://shuhan-liu.com/myjourney">My Journey</a></li>
-                    <li><a href="https://shuhan-liu.com/aboutme">About Me</a>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="https://github.com/laural1u">Github</a> </li>
-            <!--<li class="navMenu"><a href="#">Social Media</a>
-                <ul class="sub">
-                    <li><a href="https://github.com/laural1u">github</a> </li>
-                    <li><a href="https://www.linkedin.com/in/shuhan-liu-404058158/">LINKEDIN</a></li>
-                    <li><a href="#">third</a></li>
-                </ul>
-            </li>-->
-            <li class="navMenu"><a href="Shuhan Liu.pdf">Resume</a></li>
-            <li class="navMenu"><a href="mailto:s486liu@uwaterloo.ca">Email Me</a></li>
-        </ul>
-    </div>
-
-    <!--title-->
-    <div id="title" style="position:absolute; padding-left: 375px">
-        <a href="https://shuhan-liu.com"
-            style="color: white; font-size: 50px; font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: none;"><strong>SHUHAN'S
-                BLOG</strong></a>
-        <h1 style="font-size: 20px; font-weight: 400; color: white;padding-left: 120px;">
-            Welcome to my world!
-        </h1>
-    </div>
-
-    <!--        <table width="960px" align="center" cellpadding="2px" cellspacing="2px">
-            <tr height="35">
-                <td width="100%" align="center">
-                    <a href="https://shuhan-liu.com/aboutme"><span style="font-family: arial; font-family: 4; ">ABOUT
-                            ME</span></a>
-                    <a href="https://shuhan-liu.com/myjourney"><span style="font-family: arial; font-family: 4; ">MY
-                            JOURNEY</span></a>
-                    <a href="https://github.com/laural1u"><span
-                            style="font-family: arial; font-family: 4; ">GITHUB</span></a>
-                    <a href="https://www.linkedin.com/in/shuhan-liu-404058158/"><span
-                            style="font-family: arial; font-family: 4; ">LINKEDIN</span></a>
-                    <a href="Shuhan Liu.pdf"><span style="font-family: arial; font-family: 4; ">RESUME</span></a>
-                    <a href="mailto:s486liu@uwaterloo.ca"><span style="font-family: arial; font-family: 4; ">EMAIL
-                            ME</span></a>
-
-                </td>
-            </tr>-->
-
-
+<body>
+<div id="wrapper">
+	<header id="header">
+	<div class="logo">
+		<img src="./images/profile.png" class="logo">
+	</div>
+	<div class="content">
+		<div class="inner">
+			<h1>Shuhan Liu's blog</h1>
+			<p>Welcome to my world! :)<br>
+			</p>
+		</div>
+	</div>
+	<nav>
+		<script type="text/javascript">
+			function duihua()
+			{
+			alert("突破自己，琳琅天上！")
+			}
+		</script>
+	<ul>
+		<li><a href="./album.html" target="_blank"> Album</a></li><!-- 按钮1-->
+		<li><a href="http://www.github.com/laural1u" target="_blank">Github</a></li><!-- 按钮2-->
+		<li><a href=./others/resume.pdf target="_blank">Resume</a></li><!-- 按钮3-->
+		<li><a href="mailto:shuhanliu574@gmail.com" target="_blank">Email me</a></li><!-- 按钮4-->
+	</ul>
+	</nav></header>
+	<footer id="footer">
+	<p class="copyright">© 2018-2023.</p><!-- 版权-->
+	</footer>
+</div>
+<div id="bg">
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/util.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">document.oncontextmenu=function(t){window.event&&(t=window.event);try{var e=t.srcElement;return"INPUT"==e.tagName&&"text"==e.type.toLowerCase()||"TEXTAREA"==e.tagName?!0:!1}catch(n){return!1}},document.onpaste=function(t){window.event&&(t=window.event);try{var e=t.srcElement;return"INPUT"==e.tagName&&"text"==e.type.toLowerCase()||"TEXTAREA"==e.tagName?!0:!1}catch(n){return!1}},document.oncopy=function(t){window.event&&(t=window.event);try{var e=t.srcElement;return"INPUT"==e.tagName&&"text"==e.type.toLowerCase()||"TEXTAREA"==e.tagName?!0:!1}catch(n){return!1}},document.oncut=function(t){window.event&&(t=window.event);try{var e=t.srcElement;return"INPUT"==e.tagName&&"text"==e.type.toLowerCase()||"TEXTAREA"==e.tagName?!0:!1}catch(n){return!1}},document.onselectstart=function(t){window.event&&(t=window.event);try{var e=t.srcElement;return"INPUT"==e.tagName&&"text"==e.type.toLowerCase()||"TEXTAREA"==e.tagName?!0:!1}catch(n){return!1}};</script>
+<audio autoplay>
+<source src="https://y.qq.com/n/ryqq/songDetail/002bdNHj01MtA8" type="audio/mpeg"><!-- ！BGM！-->
+</audio>
 </body>
-
 </html>
